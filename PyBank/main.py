@@ -56,6 +56,6 @@ output = (
 
 print(output)
 
-output_file = "./PyBank/analysis.txt"
+output_file = "./PyBank/analysis/result.txt"
 with open(output_file, "w") as f:
     f.write(output)
